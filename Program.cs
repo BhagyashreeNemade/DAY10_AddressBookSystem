@@ -10,6 +10,10 @@
             addcontact.AddNewContact();
             Console.WriteLine();
             addcontact.Display();
+            Console.WriteLine();
+            addcontact.EditContact();
+            Console.WriteLine();
+            addcontact.Display();
 
         }
     }
