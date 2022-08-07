@@ -22,14 +22,16 @@
             //editcontact.EditContact();
             //Console.WriteLine();
             //editcontact.Display();
-            deleteContact deletecontact = new deleteContact();
-            deletecontact.AddNewContact();
-            Console.WriteLine();
-            deletecontact.Display();
-            Console.WriteLine();
-            deletecontact.RemoveContact();
-            Console.WriteLine();
-            deletecontact.Display();
+            //deleteContact deletecontact = new deleteContact();
+            //deletecontact.AddNewContact();
+            //Console.WriteLine();
+            //deletecontact.Display();
+            //Console.WriteLine();
+            //deletecontact.RemoveContact();
+            //Console.WriteLine();
+            //deletecontact.Display();
+            AddMultipleContact addMultipleContact = new AddMultipleContact();
+            addMultipleContact.AddMultipleContacts();
 
         }
     }
